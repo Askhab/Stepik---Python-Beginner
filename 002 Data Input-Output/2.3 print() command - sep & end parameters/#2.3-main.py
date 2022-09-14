@@ -20,3 +20,13 @@ print()
 
 # removing all additional symbols
 print('a', 'b', 'c', sep='', end='')
+
+
+# VARIABLES
+
+variable_name = input()
+print('Вы ввели текст:', variable_name)
+
+# multiple variable assignment
+name, surname = 'Timur', 'Guev'
+print('Name:', name, 'Surname:', surname)
