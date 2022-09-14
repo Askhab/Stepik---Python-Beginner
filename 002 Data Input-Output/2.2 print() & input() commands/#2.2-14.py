@@ -1,0 +1,6 @@
+third = input()
+second = input()
+first = input()
+print(first)
+print(second)
+print(third)
