@@ -19,7 +19,7 @@ print('m', 'n', 'o', sep='/', end='!')
 print()
 
 # removing all additional symbols
-print('a', 'b', 'c', sep='', end='')
+print('a', 'b', 'c', sep='', end='\n')
 
 
 # VARIABLES
@@ -27,6 +27,17 @@ print('a', 'b', 'c', sep='', end='')
 variable_name = input()
 print('Вы ввели текст:', variable_name)
 
-# multiple variable assignment
+# multiple variable assignment - 1 version
 name, surname = 'Timur', 'Guev'
 print('Name:', name, 'Surname:', surname)
+
+# multiple variable assignment - 2 version
+name, surname = input(), input()
+print('Имя:', name, 'Фамилия:', surname)
+
+# swap the values of two variables
+name1 = 'Alyx'
+name2 = 'Gvido'
+name1, name2 = name2, name1
+print('Name1:', name1)
+print('Name2:', name2)
