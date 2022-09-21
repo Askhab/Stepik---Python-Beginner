@@ -77,3 +77,19 @@ num3 = int(num1)
 num4 = int(num2)
 print(num3)
 print(num4)
+
+
+# Built-in functions
+# Functions min() & max()
+a = max(3, 8, -3, 12, 9)
+b = min(3, 8, -3, 12, 9)
+c = max(3.14, 2.17, 9.8)
+print(a)  # 12
+print(b)  # -3
+print(c)  # 9.8
+
+# Function abs() - module (absolute value)
+print(abs(10))  # 10
+print(abs(-7))  # 7
+print(abs(0))  # 0
+print(abs(-17.67))  # 17.67
