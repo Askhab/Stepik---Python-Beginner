@@ -1,7 +1,6 @@
-from math import ceil, floor
+m = int(input())
+n = int(input())
+start = ((m - 1) // 2) * 2 + 1
 
-x = float(input())
-xCeil = ceil(x)
-xFloor = floor(x)
-
-print(xCeil + xFloor)
+for i in range(start, n - 1, -2):
+    print(i)
