@@ -29,7 +29,7 @@ for i in range(1, 101):
 print(counter)
 
 # Sum & product calculation
-# Let's write a program that reads 10 numbers and determines the sum of those numbers that are greater than 10.
+# Let's write a program that reads 10 numbers and determines the total of those numbers that are greater than 10.
 total = 0
 for i in range(10):
     num = int(input())
@@ -37,7 +37,7 @@ for i in range(10):
         total = total + num
 print('Sum of numbers greater than 10 is', total)
 
-# Let's write a program that calculates the sum of natural numbers from 1 to 100:
+# Let's write a program that calculates the total of natural numbers from 1 to 100:
 total = 0
 for i in range(1, 101):
     total = total + i
